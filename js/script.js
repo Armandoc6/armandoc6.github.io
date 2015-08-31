@@ -265,13 +265,13 @@ var idlist =
 	"https://openload.co/embed/eKfr1Jo1h0A/","https://mega.nz/#!BBRhED6B!vUWHdQN9CDSnoX5MLBC1X66Z-bwYoOcWvEpL4hTj-S0"
  ],
  [
-	"https://openload.co/embed/c1IdTiEjDkw/","https://openload.co/f/c1IdTiEjDkw/LUPIN_III_L_AVVENTURA_ITALIANA_EP02.mkv"
+	"https://openload.co/embed/c1IdTiEjDkw/","https://mega.nz/#!1RxzgTRL!VZTHXOmiuCxJ-lx-Ku_r1PxPyULeqDSghzg2epifPXc"
  ],
  [
-	"https://openload.co/embed/mPFcNCaeeMw/","http://dbarmandoc6.tk/lupin/episodi/Lupin3_avvita_03.mkv"
+	"https://openload.co/embed/SYVzhXUE7Ek/",""
  ],
  [
-	"http://dbarmandoc6.tk/lupin/episodi/Lupin3_avvita_04.mp4","http://dbarmandoc6.tk/lupin/episodi/Lupin3_avvita_04.mkv"
+	"https://openload.co/embed/asfK0LiHx38/",""
  ]];
  
  
