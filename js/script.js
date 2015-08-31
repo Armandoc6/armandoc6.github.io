@@ -262,7 +262,7 @@ var idlist =
  ["novideo"
  ],
  [
-	"http://dbarmandoc6.tk/lupin/episodi/Lupin3_avvita_01.mp4","http://dbarmandoc6.tk/lupin/episodi/Lupin3_avvita_01.mkv"
+	"https://openload.co/embed/hBluVcEFbbg/"
  ],
  [
 	"http://dbarmandoc6.tk/lupin/episodi/Lupin3_avvita_02.mp4","http://dbarmandoc6.tk/lupin/episodi/Lupin3_avvita_02.mkv"
@@ -308,13 +308,15 @@ function switchVideo(n) {
 function cambio () {
 	var url = window.location.hash;
 	url = url.substring(1,url.length);
-	var downep = document.getElementById("downloadep");
-	var mp4 = document.getElementById("mp4");
-	var parent = mp4.parentNode;
+	//var downep = document.getElementById("downloadep");
+	//var mp4 = document.getElementById("mp4");
+	var emb = document.getElementById("embedopen");
+	//var parent = mp4.parentNode;
 	var n = parseInt(url);
-	mp4.setAttribute("src", idlist[n][0]);
+	//mp4.setAttribute("src", idlist[n][0]);
+	emb.setAttribute("src", idlist[n]);
 	
-	downep.setAttribute("href",idlist[n][1]);
+	//downep.setAttribute("href",idlist[n][1]);
 	getController().load()
 }
 window.onload = function() {
