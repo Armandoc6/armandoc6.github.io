@@ -268,10 +268,10 @@ var idlist =
 	"https://openload.co/embed/c1IdTiEjDkw/","https://mega.nz/#!1RxzgTRL!VZTHXOmiuCxJ-lx-Ku_r1PxPyULeqDSghzg2epifPXc"
  ],
  [
-	"https://openload.co/embed/SYVzhXUE7Ek/",""
+	"https://openload.co/embed/SYVzhXUE7Ek/","https://mega.nz/#!gJZnyYoD!GNaw5800SAI2csdv-VdN7kgWResGviDQtWC9oGqEJjg"
  ],
  [
-	"https://openload.co/embed/asfK0LiHx38/",""
+	"https://openload.co/embed/asfK0LiHx38/","https://mega.nz/#!gMZnkIrZ!HpDEEr2AKuRVXGuKTAdfT2R-WLr1LXanV5sUhLjMpUs"
  ]];
  
  
