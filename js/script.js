@@ -311,12 +311,13 @@ function cambio () {
 	var downep = document.getElementById("downloadep");
 	//var mp4 = document.getElementById("mp4");
 	var emb = document.getElementById("embedopen");
+	var contemb = document.getElementById("contemb");
 	//var parent = mp4.parentNode;
 	var n = parseInt(url);
 	//mp4.setAttribute("src", idlist[n][0]);
 	emb.setAttribute("src", idlist[n][0]);
-	if(n>0){
-			emb.setAttribute("style", "display:block");
+	if(! n){
+			contemb.setAttribute("style", "display:block");
 						};
 	downep.setAttribute("href",idlist[n][1]);
 	getController().load()
