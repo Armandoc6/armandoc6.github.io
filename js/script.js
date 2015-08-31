@@ -259,12 +259,20 @@ function update_properties() {
 
 var idlist =
 [
- ["Ano Hana 01","https://abvzps.dl.openload.io/dl/l/aMxz734y56I/Ano+Hana+-+Ep.+01+Super+Busters+della+Pace.mp4"
+ ["novideo"
  ],
- ["Ano Hana 02","https://1dfbd8b.dl.openload.io/dl/l/lOiZKGwSjNY/Ano+Hana+-+Ep.+02+La+Valorosa+Menma.mp4"
+ [
+	"http://dbarmandoc6.tk/lupin/episodi/Lupin3_avvita_01.mp4","http://dbarmandoc6.tk/lupin/episodi/Lupin3_avvita_01.mkv"
  ],
- ["Ef 02","http://dbarmandoc6.uhostall.com/video/ef - a tale of melodies - 11 - [FullHD][1920x1080][x264-AAC][ITA].mp4"
- ],];
+ [
+	"http://dbarmandoc6.tk/lupin/episodi/Lupin3_avvita_02.mp4","http://dbarmandoc6.tk/lupin/episodi/Lupin3_avvita_02.mkv"
+ ],
+ [
+	"http://dbarmandoc6.tk/lupin/episodi/Lupin3_avvita_03.mp4","http://dbarmandoc6.tk/lupin/episodi/Lupin3_avvita_03.mkv"
+ ],
+ [
+	"http://dbarmandoc6.tk/lupin/episodi/Lupin3_avvita_04.mp4","http://dbarmandoc6.tk/lupin/episodi/Lupin3_avvita_04.mkv"
+ ]];
  
  
 
@@ -300,16 +308,13 @@ function switchVideo(n) {
 function cambio () {
 	var url = window.location.hash;
 	url = url.substring(1,url.length);
+	var downep = document.getElementById("downloadep");
 	var mp4 = document.getElementById("mp4");
 	var parent = mp4.parentNode;
 	var n = parseInt(url);
-	mp4.setAttribute("src", idlist[n][1]);
+	mp4.setAttribute("src", idlist[n][0]);
 	
-    var para = document.createElement("p");
-	var node = document.createTextNode(idlist[n][0]);
-	para.appendChild(node);
-	var element = document.getElementById("div1");
-	element.appendChild(para);
+	downep.setAttribute("href",idlist[n][1]);
 	getController().load()
 }
 window.onload = function() {
