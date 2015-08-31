@@ -315,7 +315,9 @@ function cambio () {
 	var n = parseInt(url);
 	//mp4.setAttribute("src", idlist[n][0]);
 	emb.setAttribute("src", idlist[n][0]);
-	
+	if(! n){
+			emb.setAttribute("style", "display:none")
+						};
 	downep.setAttribute("href",idlist[n][1]);
 	getController().load()
 }
