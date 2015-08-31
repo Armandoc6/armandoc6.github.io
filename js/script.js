@@ -319,10 +319,8 @@ function cambio () {
 	emb.setAttribute("src", idlist[n][0]);
 	if(n>0){
 			contemb.setAttribute("style", "");
-						}
-	else{
-		nocontemb.setAttribute("style", "display:block");
-	}
+			nocontemb.setAttribute("style", "display:none");
+						};
 	downep.setAttribute("href",idlist[n][1]);
 	getController().load()
 }
