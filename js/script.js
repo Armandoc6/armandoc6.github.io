@@ -316,8 +316,8 @@ function cambio () {
 	var n = parseInt(url);
 	//mp4.setAttribute("src", idlist[n][0]);
 	emb.setAttribute("src", idlist[n][0]);
-	if(! n){
-			contemb.setAttribute("style", "display:block");
+	if(n>0){
+			contemb.setAttribute("style", "");
 						};
 	downep.setAttribute("href",idlist[n][1]);
 	getController().load()
