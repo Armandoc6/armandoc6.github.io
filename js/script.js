@@ -262,10 +262,10 @@ var idlist =
  ["novideo"
  ],
  [
-	"https://openload.co/embed/hBluVcEFbbg/"
+	"https://openload.co/embed/eKfr1Jo1h0A/","https://openload.co/f/eKfr1Jo1h0A/LUPIN_III_L_AVVENTURA_ITALIANA_EP01.mkv"
  ],
  [
-	"http://dbarmandoc6.tk/lupin/episodi/Lupin3_avvita_02.mp4","http://dbarmandoc6.tk/lupin/episodi/Lupin3_avvita_02.mkv"
+	"https://openload.co/embed/c1IdTiEjDkw/","https://openload.co/f/c1IdTiEjDkw/LUPIN_III_L_AVVENTURA_ITALIANA_EP02.mkv"
  ],
  [
 	"http://dbarmandoc6.tk/lupin/episodi/Lupin3_avvita_03.mp4","http://dbarmandoc6.tk/lupin/episodi/Lupin3_avvita_03.mkv"
@@ -308,15 +308,15 @@ function switchVideo(n) {
 function cambio () {
 	var url = window.location.hash;
 	url = url.substring(1,url.length);
-	//var downep = document.getElementById("downloadep");
+	var downep = document.getElementById("downloadep");
 	//var mp4 = document.getElementById("mp4");
 	var emb = document.getElementById("embedopen");
 	//var parent = mp4.parentNode;
 	var n = parseInt(url);
 	//mp4.setAttribute("src", idlist[n][0]);
-	emb.setAttribute("src", idlist[n]);
+	emb.setAttribute("src", idlist[n][0]);
 	
-	//downep.setAttribute("href",idlist[n][1]);
+	downep.setAttribute("href",idlist[n][1]);
 	getController().load()
 }
 window.onload = function() {
